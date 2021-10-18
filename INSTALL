@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+echo "Importing chwebdir..."
+cp -fv chwebdir /usr/bin/
+echo "Importing Man Page..."
+cp -fv chwebdir.8.gz /usr/share/man/man8/
+chmod +x /usr/bin/chwebdir
+echo "Successfully installed !"
